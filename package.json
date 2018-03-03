@@ -1,0 +1,27 @@
+{
+  "name": "js-playlist",
+  "version": "1.0.0",
+  "description": "a little test app",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DorminNoodles/node-js-playlist.git"
+  },
+  "keywords": [
+    "fun",
+    "ninjas"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DorminNoodles/node-js-playlist/issues"
+  },
+  "homepage": "https://github.com/DorminNoodles/node-js-playlist#readme"
+}
