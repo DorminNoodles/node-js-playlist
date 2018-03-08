@@ -16,8 +16,8 @@ app.post('/todo', urlencodedParser, function(req, res){
 
 app.delete('/todo/:item', function(req, res){
 	data = data.filter(function(todo){
-		console.log(req.params.item);
-		console.log(todo.item !== req.params.item);
+		// console.log(req.params.item);
+		// console.log(todo.item !== req.params.item);
 		return todo.item !== req.params.item;
 	});
 	res.json(data);
